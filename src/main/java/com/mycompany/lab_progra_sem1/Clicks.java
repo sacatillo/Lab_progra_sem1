@@ -12,7 +12,7 @@ public class Clicks {
  
 
     public static void main(String[] args) {
-        // Definir los precios por clic para los diferentes tramos
+        // Definir los precios por clic para los diferentes tramos,AMMM
         int clics1 = 60;
         double costoPorClic1 = 0.30;
         
