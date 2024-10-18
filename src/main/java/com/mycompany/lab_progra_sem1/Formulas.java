@@ -16,14 +16,14 @@ public class Formulas {
         // Crear un objeto Scanner para obtener la entrada del usuario,AMMM
         Scanner scanner = new Scanner(System.in);
         
-        // Solicitar numerador y denominador para la primera fracción
+        // Solicitar numerador y denominador para la primera fraccion
         System.out.print("Numerador 1: ");
         double numerador1 = scanner.nextDouble();
         
         System.out.print("Denominador 1: ");
         double denominador1 = scanner.nextDouble();
         
-        // Solicitar numerador y denominador para la segunda fracción
+        // Solicitar numerador y denominador para la segunda fraccion
         System.out.print("Numerador 2: ");
         double numerador2 = scanner.nextDouble();
         
