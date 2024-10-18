@@ -13,18 +13,18 @@ import java.util.Scanner;
 public class Planillaempleado {
 
     public static void main(String[] args) {
-        // Crear un objeto Scanner para obtener la entrada del usuario
+        
         Scanner scanner = new Scanner(System.in);
         
-        // Se solicitar al usuario que ingrese el nombre del empleado
+        // Se solicitara al usuario que ingrese el nombre del empleado
         System.out.print("Ingresa el nombre completo del empleado: ");
         String nombreEmpleado = scanner.nextLine();  // nextLine() para aceptar espacios
        
-        // Se solicitar al usuario las horas trabajadas en el mes
+        // Se solicitara al usuario las horas trabajadas en el mes
         System.out.print("Ingresa las horas trabajadas en el mes: ");
         int horasTrabajadas = scanner.nextInt();
        
-        // Se solicitar al usuario la tarifa por hora
+        // Se solicitara al usuario la tarifa por hora
         System.out.print("Ingresa la tarifa por hora (Lps): ");
         double tarifaPorHora = scanner.nextDouble();
        
