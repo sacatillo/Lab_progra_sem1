@@ -17,7 +17,7 @@ public class Cuotas {
         Scanner scanner = new Scanner(System.in);
         
         // Solicitar el monto del préstamo
-        System.out.print("Ingresa el monto del préstamo (HNL): ");
+        System.out.print("Ingresa el monto del prestamo (HNL): ");
         double montoPrestamo = scanner.nextDouble();
        
         // Solicitar el plazo en meses
@@ -25,11 +25,11 @@ public class Cuotas {
         int plazoMeses = scanner.nextInt();
        
         // Solicitar el interés mensual
-        System.out.print("Ingresa el interés mensual aplicado (en porcentaje, ej. 5.0): ");
+        System.out.print("Ingresa el interes mensual aplicado (en porcentaje, ej. 5.0): ");
         double interesMensual = scanner.nextDouble() / 100;  // Convertimos a decimal
         
        // Solicitar la comisión por cuota
-        System.out.print("Ingresa la comisión por cuota (HNL): ");
+        System.out.print("Ingresa la comision por cuota (HNL): ");
         double comisionCuota = scanner.nextDouble();
        
         // Solicitar el porcentaje del seguro mensual
